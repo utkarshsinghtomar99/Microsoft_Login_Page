@@ -26,6 +26,36 @@ input {
     border-bottom: 1px solid rgba(148, 148, 148, 0.884);
 }
 
+@media (width >= 720px) {
+    body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vmin;
+        }
+    
+        .login {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+        img {
+            align-self: self-start;
+            margin-bottom: 2em;
+        }
+    
+        .account-help p {
+            margin: 10px 0;
+        }
+    
+        .btn {
+            display: flex;
+            justify-content: end;
+            min-width: 100%;
+            margin-top: 0.5rem;
+        }
+}
 
 @media (width <= 720px) {
     body {
